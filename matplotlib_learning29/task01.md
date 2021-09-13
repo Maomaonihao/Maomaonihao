@@ -79,4 +79,3 @@
 
   [DataWhale开源资料](https://github.com/datawhalechina/fantastic-matplotlib)
 
-s

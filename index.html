@@ -16,10 +16,22 @@
       repo: '',
       coverpage: true,
 	    loadSidebar: true, 
-      subMaxLevel: 4, // 生成目录的最大层级
       loadNavbar: true, // 加载导航栏
       //coverpage: true, // 开启封面
-      // 搜索框的完整配置参数
+      auto2top: true,
+      sidebarDisplayLevel: 1,
+      subMaxLevel: 0,
+     
+       
+      alias: {
+          '/.*/_sidebar.md': '/_sidebar.md'
+      },
+        pagination: {
+            previousText: '上一章节',
+            nextText: '下一章节',
+        },
+      
+         // 搜索框的完整配置参数
       search: {
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
         paths: [], // or 'auto'
@@ -27,8 +39,19 @@
         noData: '未检索到结果',
         depth: 1,// 搜索标题的最大层级, 1 - 6
         hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
-      }
+      },
 
+      count:{
+            countable: true,
+            position: 'top',
+            margin: '10px',
+            float: 'right',
+            fontsize:'0.9em',
+            color:'rgb(90,90,90)',
+            language:'chinese',
+            isExpected: true
+        }
+     
     }
   </script>
   <!-- Docsify v4 -->
