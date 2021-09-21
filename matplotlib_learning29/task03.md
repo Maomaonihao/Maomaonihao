@@ -109,21 +109,21 @@
 
     - legend中的loc参数如下：
 
-    - | string       | code |
-      | ------------ | ---- |
-      | best         | 0    |
-      | upper right  | 1    |
-      | upper left   | 2    |
-      | lower left   | 3    |
-      | lower right  | 4    |
-      | right        | 5    |
-      | cneter left  | 6    |
-      | center right | 7    |
-      | lower center | 8    |
-      | upper center | 9    |
-      | center       | 10   |
+    | string       | code |
+    | :----------- | :--: |
+    | best         |  0   |
+    | upper right  |  1   |
+    | upper left   |  2   |
+    | lower left   |  3   |
+    | lower right  |  4   |
+    | right        |  5   |
+    | cneter left  |  6   |
+    | center right |  7   |
+    | lower center |  8   |
+    | upper center |  9   |
+    | center       |  10  |
 
       
-### 参考资料：
 
+### 参考资料：
 [DataWhale开源资料](https://github.com/datawhalechina/fantastic-matplotlib)
